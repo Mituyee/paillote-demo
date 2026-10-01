@@ -1,0 +1,9 @@
+Photographies de démonstration générées par IA — illustratives, pas le lieu ni les plats réels.
+
+Chaque photo existe en deux tailles :
+  nom.jpg      taille complète (bandeaux, fiches produit, accueil desktop)
+  nom-800.jpg  800 px (cartes, vignettes, mobile)
+
+Pour remplacer une photo : modifier "image", "imageSmall" et "imageFocus"
+dans content/menu-data.js. Sans version 800 px, supprimer le champ "imageSmall".
+Une photo absente affiche un visuel de remplacement : rien ne casse.
